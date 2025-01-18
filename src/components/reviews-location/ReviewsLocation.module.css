@@ -1,0 +1,30 @@
+.component {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.small-margin {
+  margin-bottom: 16px;
+}
+
+.reviews,
+.location {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.review-icon {
+  color: var(--rating);
+}
+
+.reviews-link {
+  color: var(--main);
+  text-decoration: none;
+}
+
+.reviews-link:hover {
+  text-decoration: underline;
+}

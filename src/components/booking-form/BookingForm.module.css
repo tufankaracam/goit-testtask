@@ -1,0 +1,41 @@
+.component {
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  padding: 45px;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.group {
+  margin-bottom: 14px;
+}
+
+.error {
+  color: var(--button);
+}
+
+.datepicker {
+  display: block;
+}
+
+.textarea {
+  display: block;
+  height: auto;
+  padding-top: 18px;
+}
+
+.textarea textarea {
+  resize: none;
+  width: 100% !important;  /* to override formiks inline styles */
+}
+
+.button {
+  margin-top: 10px;
+}

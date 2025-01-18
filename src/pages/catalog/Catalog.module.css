@@ -1,0 +1,21 @@
+.component {
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr);
+  gap: 64px;
+}
+
+.more {
+  background-color: transparent;
+  border: 1px solid var(--gray-light);
+  border-radius: 200px;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: inherit;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+.more:hover {
+  border-color: var(--button-hover);
+}

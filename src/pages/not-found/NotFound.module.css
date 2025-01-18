@@ -1,0 +1,15 @@
+.component {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh -73px);
+  padding-top: 10vh;
+}
+.header {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.subheader {
+  font-size: 25px;
+}

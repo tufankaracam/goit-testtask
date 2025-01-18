@@ -1,0 +1,67 @@
+.header {
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.title {
+  line-height: 1.33;
+  margin-bottom: 8px;
+}
+
+.reviews-location {
+  margin-bottom: 16px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.image-wrapper {
+  width: 290px;
+}
+
+.description {
+  color: var(--text);
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.tabs {
+  border-bottom: 1px solid var(--gray-light);
+  display: flex;
+  gap: 40px;
+  margin-bottom: 45px;
+  padding-bottom: 24px;
+}
+
+.tab {
+  color: var(--main);
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+}
+
+.tab:after {
+  background-color: var(--button);
+  bottom: -27px;
+  content: '';
+  display: none;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.tab:hover:after,
+.active:after {
+  display: block;
+}
+
+.bottom {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}

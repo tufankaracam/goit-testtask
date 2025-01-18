@@ -1,0 +1,33 @@
+.component {
+  height: calc(100vh - 73px);
+  position: relative;
+  text-align: left;
+}
+
+.image {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.content {
+  left: 64px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title {
+  color: var(--inputs);
+  font-size: 48px;
+  line-height: .66;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: var(--inputs);
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 40px;
+}

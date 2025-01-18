@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?s0g4u3');
+  src:  url('fonts/icomoon.eot?s0g4u3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?s0g4u3') format('truetype'),
+    url('fonts/icomoon.woff?s0g4u3') format('woff'),
+    url('fonts/icomoon.svg?s0g4u3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-radio:before {
+  content: "\e900";
+}
+.icon-ac:before {
+  content: "\e901";
+}
+.icon-cup:before {
+  content: "\e902";
+}
+.icon-droplet:before {
+  content: "\e903";
+}
+.icon-grid-3:before {
+  content: "\e904";
+}
+.icon-grid-4:before {
+  content: "\e905";
+}
+.icon-grid-9:before {
+  content: "\e906";
+}
+.icon-heart:before {
+  content: "\e907";
+}
+.icon-map:before {
+  content: "\e908";
+}
+.icon-people:before {
+  content: "\e909";
+}
+.icon-pump:before {
+  content: "\e90a";
+}
+.icon-star:before {
+  content: "\e90b";
+}
+.icon-transmission:before {
+  content: "\e90c";
+}
+.icon-tv:before {
+  content: "\e90d";
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --main: #101828;
+  --text: #475467;
+  --gray: #6C717B;
+  --button: #E44848;
+  --button-hover: #D84343;
+  --rating: #FFC531;
+  --gray-light: #DADDE1;
+  --badges: #F2F4F7;
+  --inputs: #F7F7F7;
+  --white: #FFF;
+}
+
+body {
+  color: var(--main);
+  font-size: 16px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.button {
+  background-color: var(--button);
+  border: none;
+  border-radius: 200px;
+  color: var(--white);
+  cursor: pointer;
+  display: inline-block;
+  font-size: inherit;
+  padding: 16px 60px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: var(--button-hover);
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 64px;
+  position: relative;
+  width: 100%;
+}
+
+.content {
+  padding: 48px 0 52px 0;
+}
+
+.item-title,
+.item-price {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.image-wrapper {
+  border-radius: 10px;
+  height: 320px;
+  max-width: 290px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.image-wrapper .image,
+.image-wrapper > div {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.section-title {
+  border-bottom: 1px solid var(--gray-light);
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  text-align: left;
+}
+
+.input-group {
+  align-items: center;
+  background-color: var(--inputs);
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 8px;
+  height: 56px;
+  justify-content: flex-start;
+  padding: 0 18px;
+  width: 100%;
+}
+
+.input-field {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-size: 16px;
+  height: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.input-icon {
+  color: inherit;
+  font-size: 20px;
+}
+
+/* Overriding datepicker package styles */
+.react-datepicker,
+.react-datepicker__navigation-icon::before {
+  border-color: var(--text) !important;
+}
+
+.react-datepicker {
+  border-radius: 12px !important;
+}
+
+.react-datepicker__header {
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker-wrapper div {
+  height: 100%;
+  width: 100%;
+}
+
+.react-datepicker__header {
+  background-color: var(--white) !important;
+  border-color: var(--text);
+}
+
+.react-datepicker-popper .react-datepicker__triangle {
+  fill: var(--white) !important;
+  stroke: var(--text) !important;
+  color: var(--white) !important;
+}
+
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__day--selected,
+.react-datepicker__day:hover {
+  background-color: var(--text) !important;
+  border-radius: 50% !important;
+  color: var(--inputs) !important;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

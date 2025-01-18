@@ -1,0 +1,46 @@
+.component {
+  text-align: left;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 45px;
+}
+
+.header {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  align-items: center;
+  background-color: var(--badges);
+  border-radius: 50%;
+  color: var(--button);
+  display: flex;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 600;
+  justify-content: center;
+  width: 60px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.rating {
+  display: flex;
+  gap: 4px;
+}
+
+.icon {
+  color: var(--badges);
+}
+
+.active {
+  color: var(--rating);
+}

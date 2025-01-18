@@ -1,0 +1,51 @@
+.component {
+  border: 1px solid var(--gray-light);
+  border-radius: 20px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 290px minmax(0, 1fr);
+  margin-bottom: 32px;
+  padding: 24px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-fav {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.favorite-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.fav-icon {
+  color: var(--main);
+  font-size: 24px;
+}
+
+.favorite-toggle:hover .fav-icon,
+.favorite-toggle.favorite .fav-icon {
+  color: var(--button);
+}
+
+.description {
+  color: var(--text);
+  margin-bottom: 24px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.show {
+  float: left;
+}
